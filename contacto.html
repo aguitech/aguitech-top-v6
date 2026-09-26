@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Contacto — AGUITECH // TOP v6</title>
+<meta name="description" content="Hablemos sobre tu próximo proyecto de ingeniería, diseño o sistemas.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/v6.css">
+<link rel="icon" type="image/png" href="assets/img/favicon.ico">
+</head>
+<body>
+
+<div class="nav-wrap">
+  <div class="container">
+    <nav class="nav">
+      <a href="index.html" class="brand"><img src="assets/img/logo.png" alt="AGUITECH"></a>
+      <div class="nav-links">
+        <a class="nav-link" href="index.html">Inicio</a>
+        <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+        <a class="nav-link" href="servicios.html">Servicios</a>
+        <a class="nav-link" href="experiencia.html">Trayectoria</a>
+        <a class="nav-link" href="proyectos.html">Proyectos</a>
+        <a class="nav-link active" href="contacto.html">Contacto</a>
+        <a class="nav-link nav-cta" href="contacto.html">Cotizar →</a>
+      </div>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </div>
+</div>
+
+<section style="padding:160px 0 60px">
+  <div class="container">
+    <div class="sec-head reveal" style="text-align:left;margin:0 0 60px">
+      <div class="sec-eyebrow" style="margin:0 0 18px">Respuesta en menos de 24h</div>
+      <h1 class="sec-title" style="font-size:clamp(48px,8vw,84px)"><em>Iniciemos</em></h1>
+      <p class="sec-sub" style="margin:0">Cuéntanos sobre tu proyecto. Respondemos personalmente — no es un bot.</p>
+    </div>
+
+    <div style="display:grid;grid-template-columns:1.5fr 1fr;gap:60px;align-items:start" class="reveal">
+      <form class="form-card" autocomplete="off">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre</label>
+            <input type="text" name="nombre" required placeholder="¿Cómo te llamas?">
+          </div>
+          <div class="form-group">
+            <label>Apellido</label>
+            <input type="text" name="apellido" required placeholder="Tus apellidos">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Email corporativo</label>
+            <input type="email" name="email" required placeholder="hola@tuempresa.com">
+          </div>
+          <div class="form-group">
+            <label>Teléfono / WhatsApp</label>
+            <input type="tel" name="telefono" placeholder="+52 55 ...">
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Empresa</label>
+            <input type="text" name="empresa" placeholder="Razón social o nombre de marca">
+          </div>
+          <div class="form-group">
+            <label>Industria</label>
+            <select name="industria">
+              <option value="">Selecciona…</option>
+              <option>Fintech / Banca</option>
+              <option>E‑commerce / Retail</option>
+              <option>CPG / Consumo</option>
+              <option>Servicios profesionales</option>
+              <option>Inmobiliaria</option>
+              <option>Salud / Farmacéutica</option>
+              <option>Educación / EdTech</option>
+              <option>Entretenimiento</option>
+              <option>Otra</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label>Servicios de interés</label>
+            <select name="servicio">
+              <option value="">Selecciona…</option>
+              <option>Marketing digital</option>
+              <option>BTL / Activaciones</option>
+              <option>Web / Apps / SaaS</option>
+              <option>AI & Automatización</option>
+              <option>Sistemas a medida</option>
+              <option>Diseño estratégico</option>
+              <option>3D / VR / AR</option>
+              <option>Paquete integral</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Presupuesto estimado</label>
+            <select name="presupuesto">
+              <option value="">Selecciona…</option>
+              <option>Menos de USD 10K</option>
+              <option>USD 10K — 25K</option>
+              <option>USD 25K — 50K</option>
+              <option>USD 50K — 100K</option>
+              <option>USD 100K+</option>
+              <option>Por definir</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row full">
+          <div class="form-group">
+            <label>Cuéntanos del proyecto</label>
+            <textarea name="mensaje" rows="5" placeholder="¿Qué problema quieres resolver? ¿Fecha límite? ¿Equipos internos involucrados?"></textarea>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <p class="consent">Al enviar aceptas que te contactemos para hablar de tu proyecto. No compartimos tu información, no suscribimos a newsletters raros.</p>
+          <button type="submit" class="btn btn-primary">Enviar mensaje <span class="arrow">→</span></button>
+        </div>
+        <div class="form-out"></div>
+      </form>
+
+      <aside style="position:sticky;top:100px">
+        <h3 style="font-family:var(--sans);font-weight:600;font-size:22px;letter-spacing:-.3px;margin-bottom:14px"><em style="font-family:var(--serif);color:var(--cyan);font-style:italic;font-weight:400">Conectar</em> directamente</h3>
+        <p style="color:var(--fg-2);margin-bottom:24px;line-height:1.6;font-size:14px">Si prefieres saltarte el formulario, estos canales llegan directo:</p>
+
+        <a href="mailto:hector@aguitech.com" style="display:block;padding:18px 22px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;transition:.3s;background:#fafafa">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase;font-weight:600">EMAIL</div>
+          <div style="margin-top:6px;font-size:16px;font-weight:500">hector@aguitech.com</div>
+        </a>
+        <a href="https://wa.me/5215512345678" target="_blank" rel="noopener" style="display:block;padding:18px 22px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;transition:.3s;background:#fafafa">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase;font-weight:600">WHATSAPP</div>
+          <div style="margin-top:6px;font-size:16px;font-weight:500">+52 55 1234 5678</div>
+        </a>
+        <a href="https://linkedin.com/in/hectoraguilar" target="_blank" rel="noopener" style="display:block;padding:18px 22px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;transition:.3s;background:#fafafa">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase;font-weight:600">LINKEDIN</div>
+          <div style="margin-top:6px;font-size:16px;font-weight:500">linkedin.com/in/hectoraguilar</div>
+        </a>
+        <a href="https://github.com/aguitech" target="_blank" rel="noopener" style="display:block;padding:18px 22px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;transition:.3s;background:#fafafa">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase;font-weight:600">GITHUB</div>
+          <div style="margin-top:6px;font-size:16px;font-weight:500">github.com/aguitech</div>
+        </a>
+
+        <div style="margin-top:24px;padding:18px 22px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(135deg,#fafafa,#f0f0f5)">
+          <div style="font-family:var(--mono);font-size:10px;color:var(--cyan);letter-spacing:1.5px;text-transform:uppercase;font-weight:600;margin-bottom:8px">UBICACIÓN</div>
+          <div style="font-size:15px;font-weight:500;line-height:1.5">CDMX · Guadalajara<br><span style="color:var(--fg-3);font-weight:400;font-size:13px">Operación continental · Cobertura ES, US, LATAM</span></div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="brand" style="margin-bottom:18px"><img src="assets/img/logo.png" alt="AGUITECH" style="width:130px"></a>
+        <p style="color:var(--fg-2);font-size:14px;line-height:1.6;max-width:340px;margin-top:14px">Ingeniería, diseño y sistemas integrados para marcas que escalan.</p>
+      </div>
+      <div>
+        <h5>Navegación</h5>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-mi.html">Sobre mí</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="experiencia.html">Trayectoria</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Servicios</h5>
+        <ul>
+          <li><a href="servicios.html#mkt">Marketing</a></li>
+          <li><a href="servicios.html#btl">BTL</a></li>
+          <li><a href="servicios.html#web">Web & Apps</a></li>
+          <li><a href="servicios.html#ai">AI & Automatización</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Conectar</h5>
+        <ul>
+          <li><a href="mailto:hector@aguitech.com">hector@aguitech.com</a></li>
+          <li><a href="https://wa.me/5215512345678" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="https://linkedin.com/in/hectoraguilar" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 AGUITECH · Todos los derechos reservados</span>
+      <span>Made with ⚡ in México</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/v6.js"></script>
+</body>
+</html>

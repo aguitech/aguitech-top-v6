@@ -1,0 +1,14 @@
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+dist/
+build/
+node_modules/
+.env
+.env.local
+*.log
+.cache/
+.tmp/
